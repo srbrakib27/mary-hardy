@@ -189,5 +189,36 @@ font-size: 30px;
 font-weight: 700;
 }
 
+.resummy-containar{
+    display: flex;
+    gap: 50px;
+}
 
+.resume-description{
+    color:  #757575;
 
+}
+.resume-item-institute{
+    color:  #757575;
+
+}
+.resume-item-taitle{
+color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+
+}
+
+.resummy-containar hr{
+    margin: 30px;
+}
+.resume-item-taitle{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+
+}
