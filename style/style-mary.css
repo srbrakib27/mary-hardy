@@ -53,9 +53,9 @@ nav a{
 .header-tag{
     
     background-color:#FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png') ;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 
 
 
@@ -171,9 +171,8 @@ text-align: center;
 }
 .skills-containar{
 
-    display: flex;
-   
-    gap: 24px;
+display: flex;
+gap: 24px;
 }
 
 .skills-description{
@@ -254,4 +253,60 @@ footer{
     width: 100%;
 
 }
+.hide{
+
+display: none;
+
+}
+
+
+/* responsive section */
+
+/* mobile device  */
+
+@media screen and (max-width: 576px) {
+
+    .header-tag{
+        background-image: none;
+    }
+    nav > ul,
+    nav,
+
+    .bannere, .skills-containar, .resummy-containar, .aboout-ifo-container, footer{
+        flex-direction: column;
+        }
+     .profile-pic{
+        width: 100%;
+     }
+     .bannere,
+        #what-i-do-description{
+            padding: 20px;
+        }
+        footer, .about{
+            padding: 10px;
+
+        }
+        nav > ul {
+            gap: 10px;
+        }
+        .footer-column{
+
+            width: 100%;
+        }
+
+        .contact input[type="text"], .contact input[type="email"], textarea{
+            width: 50%;
+        }
+}
+
+
+@media screen and (min-width: 576px) and (max-width:960px) {
+    
+    footer{
+        padding: 30px;
+
+    }
+}
+
+
 
